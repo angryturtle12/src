@@ -1,0 +1,68 @@
+/* App.css */
+
+html,
+body {
+  background-color: #82accf;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.todo-button {
+  padding: 10px 20px;
+  background-color: #661ec3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #eaf2e3;
+  border-radius: 5px;
+}
+
+.todo-item.completed {
+  background-color: #e5e5e5;
+  text-decoration: line-through;
+}
+
+.todo-item input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
